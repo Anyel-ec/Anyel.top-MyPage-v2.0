@@ -10,8 +10,10 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" href="assets/img/iconos/oscuro.png" type="image/x-icon">
+  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +67,9 @@
             <i class="fas fa-moon"></i>
           </label>
           <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
-          <li><a class="nav-link scrollto active" href="index.html#">Inicio</a></li>
+          <li><a class="nav-link scrollto active" href="index.html#">
+              <i class="bi bi-house-up-fill" style="font-size:x-large;"></i>
+            </a></li>
           <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
           <li><a class="nav-link scrollto" href="index.html#experience">Historia</a></li>
@@ -171,8 +175,8 @@
             </div>
             <div class="swiper-slide"><img src="assets/img/logos/espe.png" class="img-fluid"
                 alt="Certificación de ESPE"></div>
-            <div class="swiper-slide"><img src="assets/img/logos/colorado.png" class="img-fluid"
-                alt="Certificación de La Universidad del Colorado"></div>
+            <!-- <div class="swiper-slide"><img src="assets/img/logos/colorado.png" class="img-fluid"
+                alt="Certificación de La Universidad del Colorado"></div> -->
 
           </div>
         </div>
@@ -312,7 +316,7 @@
 
         <div class="row g-5">
 
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+          <div class="col-lg-12 col-md-12 content d-flex flex-column justify-content-center order-last order-md-first">
             <h3>¿Quieres hablar conmigo? <em>Escríbeme.</em></h3>
             <p>De forma profesional, estoy a sus ordenes. De forma no formal, estoy a toda su disposicion, incluso si te
               sientes triste podemos conversar (Es muy en serio, nadie merece estar solo).
@@ -321,14 +325,10 @@
               <br>
               <strong>¡Aqui les Dejo Mi Whatsapp!</strong>
             </p>
-            <a class="cta-btn align-self-start" href="#">Whatsapp</a>
+            <a class="cta-btn align-self-center" href="#">Whatsapp</a>
           </div>
 
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
+        
 
         </div>
 
@@ -353,11 +353,11 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/community manager.PNG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-activity"></i>
+                  <i class="bi bi-award-fill"></i>
                 </div>
                 <a href="#" class="stretched-link">
                   <h3>Community Manager</h3>
@@ -376,14 +376,14 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/analista de ciberseguridad.jpeg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-incognito"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Analista de Cibseguridad Jr</h3>
+                  <h3>Analista de Cibseguridad</h3>
                 </a>
                 <p>Implementación de seguridad en aplicaciones móviles, web, servidores, bases de datos, redes, y mucho
                   más.
@@ -400,14 +400,14 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/analista de datos.PNG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-database-fill"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Ingenieria de Datos</h3>
+                  <h3>Analista de Datos</h3>
                 </a>
                 <p>Implementación de inteligencia artificial (con Python completo), creación de macros en Excel,
                   dashboard,
@@ -427,11 +427,11 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/app movil.PNG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
+                  <i class="bi bi-android2"></i>
                 </div>
                 <a href="#" class="stretched-link">
                   <h3>Desarrollo de Aplicaciones Moviles</h3>
@@ -452,11 +452,11 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/sitio web.PNG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
+                  <i class="bi bi-window"></i>
                 </div>
                 <a href="#" class="stretched-link">
                   <h3>Desarrollo de Sitios Web</h3>
@@ -475,11 +475,11 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/matricula.png" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
+                  <i class="bi bi-window-stack"></i>
                 </div>
                 <a href="#" class="stretched-link">
                   <h3>Desarrollo de Aplicaciones Web</h3>
@@ -495,15 +495,36 @@
               </div>
             </div>
           </div><!-- End Service Item -->
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/servicios/chat.PNG" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-window-stack"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Experto en Prompt Engineer</h3>
+                </a>
+                <p>Utilización al máximo de las herramientas tecnológicas, desarrollo de chatbots, chat en línea y
+                  creación de contenido mediante inteligencia artificial.</p>
+
+                <strong>Skills:</strong> ChatGTP, Bing, Bard, Python, IA, Machine Learning, Deep Learning, NLP
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
+                <img src="assets/img/servicios/app movil.PNG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
+                  <i class="bi bi-person-workspace"></i>
                 </div>
                 <a href="#" class="stretched-link">
                   <h3>Proyectos Universitarios</h3>
@@ -1159,13 +1180,14 @@
 
                 <div class="form-group col-12-sm col-6">
                   <label for="nombre">Celular:</label>
-                  <input type="text" class="form-control" placeholder="0999999999" id="celular" name="Celular" maxlength="15" required>
+                  <input type="text" class="form-control" placeholder="0999999999" id="celular" name="Celular"
+                    maxlength="15" required>
                 </div>
 
                 <div class="form-group col-12-sm col-6">
                   <label for="correo">Correo electrónico:</label>
-                  <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="correo" maxlength="50" name="Correo"
-                    required>
+                  <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="correo" maxlength="50"
+                    name="Correo" required>
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje:</label>
