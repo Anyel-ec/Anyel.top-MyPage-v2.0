@@ -1,0 +1,12 @@
+#typed-output {
+    display: inline-block;
+    border-right: 2px solid var(--color-primary);; /* Línea parpadeante */
+    padding-right: 8px; /* Espaciado para la línea parpadeante */
+    animation: blink-caret 0.75s infinite; /* Animación de la línea parpadeante */
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
