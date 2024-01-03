@@ -11,8 +11,10 @@
 
   <!-- Favicons -->
   <link rel="icon" href="assets/img/iconos/oscuro.png" type="image/x-icon">
-  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon" media="(prefers-color-scheme: light)">
-  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon"
+    media="(prefers-color-scheme: light)">
+  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon"
+    media="(prefers-color-scheme: dark)">
 
 
   <!-- Google Fonts -->
@@ -47,6 +49,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="assets/css/experience.css">
+  <link rel="stylesheet" href="assets/css/about_me.css">
 </head>
 
 <body>
@@ -60,6 +63,7 @@
       </a>
       <nav id="navbar" class="navbar">
         <ul>
+          <!--by Anyel EC-->
           <label class="switch" for="dark-mode-btn">
             <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
             <span class="slider"></span>
@@ -70,8 +74,8 @@
           <li><a class="nav-link scrollto active" href="index.html#">
               <i class="bi bi-house-up-fill" style="font-size:x-large;"></i>
             </a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="index.html#experience">Historia</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
@@ -115,9 +119,9 @@
         <div class="row gy-4">
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="" class="stretched-link">Creador de Contenido</a></h4>
+            <div class="service-item position-relative text-center" id="fs-1">
+              <div class="icon"><i class="bi bi-collection-play icon"></i></div>
+              <h4 class=""><a href="" class="stretched-link">Creador de Contenido</a></h4>
               <p>Me apasiona compartir mis experiencias y conocimientos, así como conocer personas maravillosas. Este
                 mundo digital es realmente hermoso.
                 "Buscame como <strong>Anyel EC</strong> en todas mis redes sociales." Guiño Guiño.
@@ -126,8 +130,8 @@
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+            <div class="service-item position-relative text-center" id="fs-2">
+              <div class="icon"><i class="bi bi-shield-check icon"></i></div>
               <h4><a href="" class="stretched-link">Analista de Ciberseguridad</a></h4>
               <p>Desde que sufrí un hackeo en mi cuenta de YouTube; carita muy tite :(, me enamoré de ayudar a prevenir
                 que esto le suceda a otras personas.</p>
@@ -135,8 +139,8 @@
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
+            <div class="service-item position-relative text-center" id="fs-3">
+              <div class="icon"><i class="bi bi-code-slash icon"></i></div>
               <h4><a href="" class="stretched-link">Desarrollador Full Stack de Aplicaciones </a></h4>
               <p>Me gusta mucho el desarrollo de aplicaciones móvil y web, especialmente el despliegue e implementación
                 de seguridad. Eso sí, brindando más de lo que se espera.
@@ -145,8 +149,8 @@
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+            <div class="service-item position-relative text-center" id="fs-4">
+              <div class="icon"><i class="bi bi-stars icon"></i></div>
               <h4><a href="" class="stretched-link">Invitame a la Iglesia me estoy convirtiendo en un Cuco jojojo</a>
               </h4>
               <p>Creo en nuestro Dios, en nuestro señor Jesús como nuestro Salvador, pero me gusta más practicar el ser
@@ -160,7 +164,7 @@
 
 
     <!-- ======= Clients Section ======= -->
-    <section id="" class="clients">
+    <section id="logos" class="clients">
       <div class="container" data-aos="zoom-out">
 
         <div class="clients-slider swiper">
@@ -202,7 +206,7 @@
                 <img src="assets/img/Certificados Profesionales/Analista de Datos de IBM.jpg" class="img-fluid"
                   alt="Certificado Profesional de  Analista de Datos de IBM">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-1">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -220,7 +224,7 @@
               <div class="member-img">
                 <img src="assets/img/Certificados Profesionales/IBM Cybersecurity Analyst.jpg" class="img-fluid" alt="">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-2">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -238,7 +242,7 @@
               <div class="member-img">
                 <img src="assets/img/Certificados Profesionales/Google IT.jpg" class="img-fluid" alt="">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-3">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -255,7 +259,7 @@
               <div class="member-img">
                 <img src="assets/img/Certificados Profesionales/Computer Communications.jpg" class="img-fluid" alt="">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-4">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -273,7 +277,7 @@
               <div class="member-img">
                 <img src="assets/img/Certificados Profesionales/IBM Cybersecurity Analyst.jpg" class="img-fluid" alt="">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-5">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -291,7 +295,7 @@
               <div class="member-img">
                 <img src="assets/img/Certificados Profesionales/aws.jpg" class="img-fluid" alt="">
               </div>
-              <div class="member-info">
+              <div class="member-info" id="c-6">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -328,8 +332,6 @@
             <a class="cta-btn align-self-center" href="#">Whatsapp</a>
           </div>
 
-        
-
         </div>
 
       </div>
@@ -355,13 +357,12 @@
               <div class="img">
                 <img src="assets/img/servicios/community manager.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s1">
                 <div class="icon">
                   <i class="bi bi-award-fill"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Community Manager</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>
                   Desarrollo de marca, SEO, SEM, creación de contenido, manejo de redes sociales, diseño gráfico,
                   publicidad orgánica o pagada, y mucho más.
@@ -378,13 +379,12 @@
               <div class="img">
                 <img src="assets/img/servicios/analista de ciberseguridad.jpeg" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s2">
                 <div class="icon">
                   <i class="bi bi-incognito"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Analista de Cibseguridad</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Implementación de seguridad en aplicaciones móviles, web, servidores, bases de datos, redes, y mucho
                   más.
                   La verdad este servicio es muy chido, me gusta mucho, pero no soy experto, así que no esperes que te
@@ -402,13 +402,12 @@
               <div class="img">
                 <img src="assets/img/servicios/analista de datos.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s3">
                 <div class="icon">
                   <i class="bi bi-database-fill"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Analista de Datos</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Implementación de inteligencia artificial (con Python completo), creación de macros en Excel,
                   dashboard,
                   creación de reportes, análisis de datos tanto en gestores de bases de datos como en archivos comunes
@@ -429,13 +428,12 @@
               <div class="img">
                 <img src="assets/img/servicios/app movil.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s4">
                 <div class="icon">
                   <i class="bi bi-android2"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Desarrollo de Aplicaciones Moviles</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Este servicio es de los más chidos, autenticaciones de usuarios, tokens de sesión, front-end
                   atractivo con Kotlin o Flutter, back-end tanto con Node.js o Nest.js,
                   operaciones CRUD, consumo de APIs, ETL, BD en la Nube, SQLite, Git, Gestión de estados, chat en línea,
@@ -454,13 +452,12 @@
               <div class="img">
                 <img src="assets/img/servicios/sitio web.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s5">
                 <div class="icon">
                   <i class="bi bi-window"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Desarrollo de Sitios Web</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Ideal para marcas pequeñas o PYMES, desarrollo de una página informativa, por $100 ofrecemos
                   integración de APIs de correos, contactos, mapas, WhatsApp, chatbot, hosting y dominio por un año
                   (aplican restricciones en dominio), estudio de marca, posicionamiento de la misma, sitio web seguro
@@ -477,13 +474,12 @@
               <div class="img">
                 <img src="assets/img/servicios/matricula.png" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s6">
                 <div class="icon">
                   <i class="bi bi-window-stack"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Desarrollo de Aplicaciones Web</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Ideal de PYMES o empresas Grandes, desarrollo de plataformas web con PHP(Laravel), Python (Django),
                   Node.js(Angular, React),
                   diseño de componentes web, diseño responsivo, desarrollo y consumo de APIs, autenticación de usuarios,
@@ -500,13 +496,12 @@
               <div class="img">
                 <img src="assets/img/servicios/chat.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s7">
                 <div class="icon">
                   <i class="bi bi-window-stack"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Experto en Prompt Engineer</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Utilización al máximo de las herramientas tecnológicas, desarrollo de chatbots, chat en línea y
                   creación de contenido mediante inteligencia artificial.</p>
 
@@ -522,13 +517,12 @@
               <div class="img">
                 <img src="assets/img/servicios/app movil.PNG" class="img-fluid" alt="">
               </div>
-              <div class="details position-relative">
+              <div class="details position-relative" id="s8">
                 <div class="icon">
                   <i class="bi bi-person-workspace"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Proyectos Universitarios</h3>
-                </a>
+                <h3><a href="" class="stretched-link">Creador de Contenido</a></h3>
+
                 <p>Si eres estudiante, te puedo ayudar con tus proyectos universitarios, o si tienes alguna duda,
                   escribeme que es gratis la ayuda para orientar (Aqui no hay cobro, solo si me pides que te haga el
                   proyecto, ahi si cobramos jejejeje).
@@ -567,7 +561,7 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                    data-bs-target="#faq-content-1" id="f1">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿De qué país eres?
                   </button>
@@ -586,7 +580,7 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-2">
+                    data-bs-target="#faq-content-2" id="f2">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Cuál es tu edad?
                   </button>
@@ -602,7 +596,7 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-3">
+                    data-bs-target="#faq-content-3" id="f3">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Cuáles son tus redes sociales o plataformas que usas habitualmente?
                   </button>
@@ -623,7 +617,7 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-4">
+                    data-bs-target="#faq-content-4" id="f4">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Los servicios son de forma individual o en equipo?
                   </button>
@@ -645,7 +639,7 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-5">
+                    data-bs-target="#faq-content-5" id="f5">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Dónde estudias? ¿Qué carrera estudias, y el semestre? ¿O en qué trabajas?
                   </button>
@@ -673,10 +667,9 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem
-            est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat
-          </p>
+          <h2>Proyectos</h2>
+          <p>Aqui algunos trabajitos que he realizado en el desarrollo de aplicaciones tanto para empresas,
+            universitarios y personales. </p>
         </div>
 
       </div>
@@ -859,11 +852,11 @@
               <div class="timeline-heading">
                 <!-- Año y título del evento -->
                 <h4>2018-2019</h4>
-                <h4 class="subheading" id="a20">Asistente Técnico en Administración Escolar</h4>
+                <h4 class="subheading">Asistente Técnico en Administración Escolar</h4>
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a21">
+                <p class="">
                   Brindamos asesoría a docentes y administradores de centros educativos en relación a los
                   proyectos de la institución, informamos sobre el presupuesto y brindamos soporte
                   técnico.
@@ -885,7 +878,7 @@
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a24">
+                <p class="" id="a24">
                   Mérito académico en Bachillerato Técnico en Servicios de Administración de Sistemas por
                   obtener la puntuación más alta en la promoción 2018-2019
                 </p>
@@ -902,11 +895,11 @@
               <div class="timeline-heading">
                 <!-- Año y título del evento -->
                 <h4>2020-2021</h4>
-                <h4 class="subheading" id="a25">Creador de Contenido y Streaming</h4>
+                <h4>Creador de Contenido y Streaming</h4>
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a26">
+                <p>
                   Creador de contenido en plataformas digitales como YouTube, Kwai, TikTok e Instagram,
                   con experiencia en monetización y SEO a través del canal 'Anyel EC'
                 </p>
@@ -927,7 +920,7 @@
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a27">
+                <p>
                   Administrador de redes sociales, encargado de la gestión de la FansPage y cuenta de
                   Instagram de un prestigioso supermercado, con experiencia en la creación de contenido
                   publicitario para dicha empresa.
@@ -949,7 +942,7 @@
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a26">
+                <p>
                   Desarrollador Front-End con lenguajes de PHP, CSS, HTML, JS y el framework de Bootstrap 5.
                   Implementación de APIs.
                   Implemntacion de SEO, SEM.
@@ -973,7 +966,7 @@
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a24">
+                <p>
                   Desarrollador Front-End con lenguajes de PHP, CSS, HTML, JS y el framework de Bootstrap 5.
                   Implementación de APIs.
                   Implemntacion de SEO, SEM.
@@ -993,11 +986,11 @@
               <div class="timeline-heading">
                 <!-- Año y título del evento -->
                 <h4>Actualidad</h4>
-                <h4 class="subheading" id="a25">DevOps Developer Junior</h4>
+                <h4 class="subheading">DevOps Developer Junior</h4>
               </div>
               <div class="timeline-body">
                 <!-- Descripción del evento -->
-                <p class="text-muted" id="a26">
+                <p>
                   Desarrollado y alojado varias aplicaciones web y los he posicionado entre
                   los primeros resultados en los motores de búsqueda. Contribuyo diariamente proyectos en GitHub,
                   y creo contenido en el campo de las tecnologías de la información.
@@ -1023,7 +1016,7 @@
 
 
     <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
+    <!-- <section id="recent-blog-posts" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
 
@@ -1083,8 +1076,8 @@
 
       </div>
 
-    </section><!-- End Recent Blog Posts Section -->
-
+    </section>End Recent Blog Posts Section -->
+    
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -1207,6 +1200,62 @@
 
       </div>
     </section><!-- End Contact Section -->
+    <!----------------------------------------------------------------------->
+    <section class="about_me" id="about_me">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-header">
+            <h2 class="text-uppercase">Angel Paul Patiño Diaz</h2>
+          </div>
+          <p class="">Universidad de las Fuerzas Armadas ESPE <br> Ing. en
+            Tecnologías de la Información</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4"></div> <!-- Columna vacía -->
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/anyel.jpg" alt="Angel Paul Patiño Diaz" width="50%" />
+              <h4>Anyel EC</h4>
+              <p class="" id="a28">Redes sociales</p>
+              <!-- Enlaces a redes sociales con iconos -->
+              <a class="btn btn-dark btn-social mx-2 rounded-circle"
+                href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20"
+                target="_blank" aria-label="Diana Petersen Twitter Profile">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+
+              <a class="btn btn-dark btn-social mx-2 rounded-circle"
+                href="https://www.facebook.com/profile.php?id=61552032335826" target="_blank"
+                aria-label="Angel Paul Patiño Diaz Facebook Profile">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a class="btn btn-dark btn-social mx-2 rounded-circle"
+                href="https://www.linkedin.com/in/angel-pati%C3%B1o/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://github.com/Anyel-ec/" target="_blank"
+                aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.tiktok.com/@anyel.ec"
+                target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+                <i class="fab fa-tiktok"></i>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-lg-4"></div> <!-- Columna vacía -->
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large">Que tengas un excelente día.</p>
+          </div>
+        </div>
+      </div>
+    </section> <!--end Section About-->
 
   </main><!-- End #main -->
 

@@ -1201,7 +1201,7 @@ section {
   margin-bottom: 60px;
 }
 
-.cta .container {
+.cta  {
   padding: 80px;
   background: rgba(var(--color-secondary-rgb), 0.1);
   border-radius: 15px;

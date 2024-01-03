@@ -1,17 +1,14 @@
-
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
 }
-
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-
 .slider {
     position: absolute;
     top: 0;
@@ -22,7 +19,6 @@
     background-color: #666461;
     transition: .4s;
 }
-
 .slider:before {
     position: absolute;
     content: "";
@@ -34,17 +30,14 @@
     background-color: white;
     transition: .4s;
 }
-
 /* Estilo para el interruptor cuando está activado */
 input:checked+.slider {
     background-color: #4c4d4e;
 }
-
 /* Estilo para el círculo deslizante antes del interruptor cuando está activado */
 input:checked+.slider:before {
     transform: translateX(26px);
 }
-
 /* Estilos para el ícono de luna y sol */
 .fa-moon,
 .fa-sun {
@@ -54,17 +47,14 @@ input:checked+.slider:before {
     transition: opacity 0.4s;
     transform: translate(-10%, -50%);
 }
-
 .fa-sun {
     left: 10px;
     opacity: 1;
 }
-
 .fa-moon {
     right: 10px;
     opacity: 1;
 }
-
 /* Estilo para el ícono de luna cuando el interruptor está activado */
 .switch input:checked+.slider~.fa-moon {
     opacity: 1;
