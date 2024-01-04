@@ -65,12 +65,15 @@
       <nav id="navbar" class="navbar">
         <ul>
           <!--by Anyel EC-->
-          <label class="switch" for="dark-mode-btn">
-            <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
-            <span class="slider"></span>
-            <i class="fas fa-sun"></i>
-            <i class="fas fa-moon"></i>
-          </label>
+          <li>
+            <label class="switch" for="dark-mode-btn">
+              <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
+              <span class="slider"></span>
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+            </label>
+          </li>
+          
           <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
           <li><a class="nav-link scrollto active" href="index.html#">
               <i class="bi bi-house-up-fill" style="font-size:x-large;"></i>
@@ -120,10 +123,12 @@
             <div class="team-member">
 
               <picture>
+                <!-- Formato WebP para mayor calidad y menor tamaño en navegadores compatibles -->
                 <source srcset="assets/img/anyel.webp" type="image/webp">
-                <img class="mx-auto rounded-circle" src="assets/img/anyel.jpg" alt="Anyel EC (Imagen de Perfil)"
-                  width="50%">
+                <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
+                <img class="mx-auto rounded-circle img-fluid" src="assets/img/anyel.jpg" alt="Anyel EC (Imagen de Perfil)" style="max-width: 100%;" width="50%">
               </picture>
+              
 
               <h4>Anyel EC</h4>
               <p class="" id="a28">Redes sociales</p>
@@ -184,7 +189,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative text-center" id="fs-1">
               <div class="icon"><i class="bi bi-collection-play icon"></i></div>
-              <h4 class=""><a href="" class="stretched-link">Creador de Contenido</a></h4>
+              <h4 class=""><a href="#" class="stretched-link">Creador de Contenido</a></h4>
               <p>Me apasiona compartir mis experiencias y conocimientos, así como conocer personas maravillosas. Este
                 mundo digital es realmente hermoso.
                 "Buscame como <strong>Anyel EC</strong> en todas mis redes sociales." Guiño Guiño.
@@ -195,7 +200,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative text-center" id="fs-2">
               <div class="icon"><i class="bi bi-shield-check icon"></i></div>
-              <h4><a href="" class="stretched-link">Analista de Ciberseguridad</a></h4>
+              <h4><a href="#" class="stretched-link">Analista de Ciberseguridad</a></h4>
               <p>Desde que sufrí un hackeo en mi cuenta de YouTube; carita muy tite :(, me enamoré de ayudar a prevenir
                 que esto le suceda a otras personas.</p>
             </div>
@@ -204,7 +209,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative text-center" id="fs-3">
               <div class="icon"><i class="bi bi-code-slash icon"></i></div>
-              <h4><a href="" class="stretched-link">Desarrollador Full Stack de Aplicaciones </a></h4>
+              <h4><a href="#" class="stretched-link">Desarrollador Full Stack de Aplicaciones </a></h4>
               <p>Me gusta mucho el desarrollo de aplicaciones móvil y web, especialmente el despliegue e implementación
                 de seguridad. Eso sí, brindando más de lo que se espera.
               </p>
@@ -214,7 +219,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative text-center" id="fs-4">
               <div class="icon"><i class="bi bi-stars icon"></i></div>
-              <h4><a href="" class="stretched-link">Invitame a la Iglesia me estoy convirtiendo en un Cuco jojojo</a>
+              <h4><a href="#" class="stretched-link">Invitame a la Iglesia me estoy convirtiendo en un Cuco jojojo</a>
               </h4>
               <p>Creo en nuestro Dios, en nuestro señor Jesús como nuestro Salvador, pero me gusta más practicar el ser
                 buena persona, así que te animo a ti también.</p>
@@ -310,10 +315,10 @@
               
               <div class="member-info" id="c-1">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Analista de Datos de IBM</h4>
                 <span>Certificado profesional </span>
@@ -334,10 +339,10 @@
               
               <div class="member-info" id="c-2">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>IBM Cybersecurity Analyst</h4>
                 <span>Certificado profesional </span>
@@ -358,10 +363,10 @@
               
               <div class="member-info" id="c-3">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Google IT Support</h4>
                 <span>Certificado profesional </span>
@@ -381,10 +386,10 @@
               
               <div class="member-info" id="c-4">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Computer Communications (University of Colorado System)</h4>
                 <span>Especialización</span>
@@ -405,10 +410,10 @@
               
               <div class="member-info" id="c-5">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Junior Cybersecurity Analyst</h4>
                 <span>Especialización</span>
@@ -429,10 +434,10 @@
               
               <div class="member-info" id="c-6">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>AWS Cloud Solutions Architect
                 </h4>
@@ -499,7 +504,7 @@
                 <div class="icon">
                   <i class="bi bi-award-fill"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Community Manager</a></h3>
+                <h3><a href="#" class="stretched-link">Community Manager</a></h3>
 
                 <p>
                   Desarrollo de marca, SEO, SEM, creación de contenido, manejo de redes sociales, diseño gráfico,
@@ -527,7 +532,7 @@
                 <div class="icon">
                   <i class="bi bi-incognito"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Analista de Ciberseguridad</a></h3>
+                <h3><a href="#" class="stretched-link">Analista de Ciberseguridad</a></h3>
 
                 <p>Implementación de seguridad en aplicaciones móviles, web, servidores, bases de datos, redes, y mucho
                   más.
@@ -556,7 +561,7 @@
                 <div class="icon">
                   <i class="bi bi-database-fill"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Analista de Datos</a></h3>
+                <h3><a href="#" class="stretched-link">Analista de Datos</a></h3>
 
                 <p>Implementación de inteligencia artificial (con Python completo), creación de macros en Excel,
                   dashboard,
@@ -588,7 +593,7 @@
                 <div class="icon">
                   <i class="bi bi-android2"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Desarrollo de Aplicaciones Moviles</a></h3>
+                <h3><a href="#" class="stretched-link">Desarrollo de Aplicaciones Moviles</a></h3>
 
                 <p>Este servicio es de los más chidos, autenticaciones de usuarios, tokens de sesión, front-end
                   atractivo con Kotlin o Flutter, back-end tanto con Node.js o Nest.js,
@@ -618,7 +623,7 @@
                 <div class="icon">
                   <i class="bi bi-window"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Desarrollo de Sitios Web</a></h3>
+                <h3><a href="#" class="stretched-link">Desarrollo de Sitios Web</a></h3>
 
                 <p>Ideal para marcas pequeñas o PYMES, desarrollo de una página informativa, por $100 ofrecemos
                   integración de APIs de correos, contactos, mapas, WhatsApp, chatbot, hosting y dominio por un año
@@ -646,7 +651,7 @@
                 <div class="icon">
                   <i class="bi bi-window-stack"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Desarrollo Full Stack de Aplicaciones Web</a></h3>
+                <h3><a href="#" class="stretched-link">Desarrollo Full Stack de Aplicaciones Web</a></h3>
 
                 <p>Ideal de PYMES o empresas Grandes, desarrollo de plataformas web con PHP(Laravel), Python (Django),
                   Node.js(Angular, React),
@@ -674,7 +679,7 @@
                 <div class="icon">
                   <i class="bi bi-window-stack"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Experto en Prompt Engineer</a></h3>
+                <h3><a href="#" class="stretched-link">Experto en Prompt Engineer</a></h3>
 
                 <p>Utilización al máximo de las herramientas tecnológicas, desarrollo de chatbots, chat en línea y
                   creación de contenido mediante inteligencia artificial.</p>
@@ -701,7 +706,7 @@
                 <div class="icon">
                   <i class="bi bi-person-workspace"></i>
                 </div>
-                <h3><a href="" class="stretched-link">Proyectos Universitarios</a></h3>
+                <h3><a href="#" class="stretched-link">Proyectos Universitarios</a></h3>
 
                 <p>Si eres estudiante, te puedo ayudar con tus proyectos universitarios, o si tienes alguna duda,
                   escribeme que es gratis la ayuda para orientar (Aqui no hay cobro, solo si me pides que te haga el
@@ -1200,7 +1205,7 @@
                     required>
                 </div>
                 <div class="form-group col-12-sm col-6">
-                  <label for="pais font-weight-bold">Pais:</label>
+                  <label for="pais" class="font-weight-bold">Pais:</label>
                   <select class="form-control" name="pais" id="pais">
                     <option value="" disabled selected>Seleccione una opción</option>
                     <option value="+54">Argentina (+54)</option>
@@ -1317,10 +1322,14 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Suscribete</h4>
-            <p>Tas' subo un dato o publicacion, te enteras de volada</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <label for="email" class="">Correo Electrónico:</label>
+
+            <form action="https://formspree.io/f/myyqwvvo" method="post">
+                <input type="email" id="email" name="email" placeholder="cyberdevmatrix@gmail.com">
+                <input type="submit" value="Subscribe">
+              </form>
+            </div>
+            
 
           </div>
           <div class="row align-items-center mt-3">
