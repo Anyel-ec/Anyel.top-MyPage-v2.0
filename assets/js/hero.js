@@ -1,4 +1,4 @@
-const phrases = ["Ciberseguridad", "Microservicios", "Soluciones en la Nube", "Análisis de Datos", "Desarrollo Full Stack"];
+const phrases = ["Ciberseguridad", "Microservicios", "Soluciones en la Nube", "Análisis de Datos", "Desarrollo Full Stack", "Inteligencia Artificial"];
 let currentPhraseIndex = 0;
 let currentCharIndex = 0;
 const typedOutput = document.getElementById("typed-output");
