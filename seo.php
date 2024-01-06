@@ -1,6 +1,4 @@
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description"
         content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊" />
     <meta name="keywosrds" content="Anyel EC, Angel Patiño, Angel Paul Patiño Diaz, Cyber Dev Matrix">
@@ -17,6 +15,5 @@
     <meta name="twitter:description"
         content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊😊" />
     <meta name="author" content="Anyel EC, Angel Paul Patiño Diaz" />
-    <meta name="robots" content="index, follow">
-    
+    <meta name="robots" content="index, follow">    
 </head>
