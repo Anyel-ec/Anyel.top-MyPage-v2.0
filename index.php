@@ -1164,7 +1164,7 @@
 
         <div class="row gy-5 gx-lg-5">
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-12">
 
             <div class="info">
               <h3>Redes Sociales</h3>
@@ -1207,15 +1207,15 @@
 
           </div>
 
-          <div class="col-lg-8">
+          <div class="col-lg-8 col-sm-12 ">
             <form action="https://formspree.io/f/myyqwvvo" method="post">
               <div class="row">
-                <div class="form-group col-12-sm col-6">
+                <div class="form-group col-sm-12 col-lg-6">
                   <label for="nombre">Nombre:</label>
                   <input type="text" class="form-control" placeholder="Nombre Completo" id="nombre" name="Nombre"
                     required>
                 </div>
-                <div class="form-group col-12-sm col-6">
+                <div class="form-group col-sm-12 col-lg-6">
                   <label for="pais" class="font-weight-bold">Pais:</label>
                   <select class="form-control" name="pais" id="pais">
                     <option value="" disabled selected>Seleccione una opción</option>
@@ -1244,13 +1244,13 @@
 
 
 
-                <div class="form-group col-12-sm col-6">
+                <div class="form-group col-sm-12 col-lg-6">
                   <label for="nombre">Celular:</label>
                   <input type="text" class="form-control" placeholder="0999999999" id="celular" name="Celular"
                     maxlength="15" required>
                 </div>
 
-                <div class="form-group col-12-sm col-6">
+                <div class="form-group col-sm-12 col-lg-6">
                   <label for="correo">Correo electrónico:</label>
                   <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="correo" maxlength="50"
                     name="Correo" required>
