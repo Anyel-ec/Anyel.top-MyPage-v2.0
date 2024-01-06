@@ -728,32 +728,7 @@
               </div>
             </div>
           </div><!-- End Service Item -->
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-            <div class="service-item">
-              <div class="img">
-                <picture>
-                  <!-- Formato WebP - mayor calidad y menor tamaño -->
-                  <source srcset="assets/img/servicios/chat.webp" type="image/webp">
-                  <!-- Formato PNG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/servicios/chat.PNG" class="img-fluid" alt="Chat">
-                </picture>
-              </div>
-
-              <div class="details position-relative" id="s7">
-                <div class="icon">
-                  <i class="bi bi-window-stack"></i>
-                </div>
-                <h3><a href="#" class="stretched-link">Experto en Prompt Engineer</a></h3>
-
-                <p>Utilización al máximo de las herramientas tecnológicas, desarrollo de chatbots, chat en línea y
-                  creación de contenido mediante inteligencia artificial.</p>
-
-                <strong>Skills:</strong> ChatGTP, Bing, Bard, Python, IA, Machine Learning, Deep Learning, NLP
-                </p>
-                <a href="#" class="stretched-link"></a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
+          
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
