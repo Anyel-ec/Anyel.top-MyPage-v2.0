@@ -1,0 +1,117 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Anyel EC</title>
+  <!-- SEO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊" />
+  <meta name="keywosrds" content="Anyel EC, Angel Patiño, Angel Paul Patiño Diaz, Cyber Dev Matrix">
+  <name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.anyel.top/" />
+  <meta name="generator" content="All in One SEO (AIOSEO) 4.2.7.1 " />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:site_name" content="Anyel EC, Angel Paul Patiño Diaz, Cyber Dev Matrix" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.anyel.top">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anyel EC" />
+  <meta name="twitter:description" content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊😊" />
+  <meta name="author" content="Anyel EC, Angel Paul Patiño Diaz" />
+  <meta name="robots" content="index, follow">
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/iconos/oscuro.png" type="image/x-icon">
+  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/hero.css">
+
+  <!--CSS propio-->
+  <link rel="stylesheet" href="assets/css/switch.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/experience.css">
+  <link rel="stylesheet" href="assets/css/about_me.css">
+  <link rel="stylesheet" href="assets/css/preloader.css">
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        <a href="/" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+            <h1>Anyel<span>EC</span></h1>
+        </a>
+        <nav id="navbar" class="navbar ">
+            <ul class="me-auto"> <!-- Menú principal a la izquierda -->
+                <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
+                <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
+                <li class="dropdown bg-none">
+                    <a class="nav-link scrollto" href="#contact">Contacto<span class="caret"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a class="nav-link scrollto" href="index.html#experience">Historia</a></li>
+                        <li><a href="index.html#contact">Contacto</a></li>
+                        <!-- Puedes agregar más elementos del menú desplegable si es necesario -->
+                    </ul>
+                </li>
+            </ul>
+            <ul class="justify-content-end text-end me-0"> <!-- Usuario y switch a la derecha -->
+                <?php if (isset($_SESSION['user_name'])) : ?>
+                    <li>
+                        <a class="nav-link scrollto" href="#">
+                            ¡Hola, <?php echo $_SESSION['user_name']; ?>!
+                        </a>
+                    </li>
+                <?php else : ?>
+                    <li>
+                        <a class="nav-link scrollto" href="auth.php">
+                            <i class="fab fa-google"></i> Iniciar sesión con Google
+                        </a>
+                    </li>
+                <?php endif; ?>
+                <li>
+                    <label class="switch nav-link scrollto" for="dark-mode-btn">
+                        <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
+                        <span class="slider"></span>
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </label>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle d-none"></i>
+
+        </nav>
+    </div>
+</header><!-- End Header -->

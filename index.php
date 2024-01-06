@@ -10,8 +10,7 @@ session_start();
   <title>Anyel EC</title>
   <!-- SEO -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description"
-    content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊" />
+  <meta name="description" content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊" />
   <meta name="keywosrds" content="Anyel EC, Angel Patiño, Angel Paul Patiño Diaz, Cyber Dev Matrix">
   <name="robots" content="max-image-preview:large" />
   <link rel="canonical" href="https://www.anyel.top/" />
@@ -23,23 +22,18 @@ session_start();
   <meta property="og:url" content="https://www.anyel.top">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Anyel EC" />
-  <meta name="twitter:description"
-    content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊😊" />
+  <meta name="twitter:description" content="Ingeniero en Tecnologías de la Información, con certificaciones profesionales en áreas de Análisis de Datos, Ciberseguridad, Cloud, Full Stack, apasionado por el mundo digital.😊😊" />
   <meta name="author" content="Anyel EC, Angel Paul Patiño Diaz" />
   <meta name="robots" content="index, follow">
   <!-- Favicons -->
   <link rel="icon" href="assets/img/iconos/oscuro.png" type="image/x-icon">
-  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon"
-    media="(prefers-color-scheme: light)">
-  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon"
-    media="(prefers-color-scheme: dark)">
+  <link rel="icon" id="icono-claro" href="assets/img/iconos/oscuro.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+  <link rel="icon" id="icono-oscuro" href="assets/img/iconos/claro.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -75,14 +69,37 @@ session_start();
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top " data-scrollto-offset="0">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
+    <div class="container-fluid align-items-center d-sm-block d-md-block d-lg-none">
 
-      <a href="/" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="#" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <h1>Anyel<span>EC</span></h1>
       </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <!--by Anyel EC-->
+      <nav id="navbar" class="navbar ">
+        <ul class="d-flex justify-content-start">
+          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
+          <!-- <li><a class="nav-link scrollto active" href="index.html#">
+              <i class="bi bi-house-up-fill" style="font-size:x-large;"></i> 
+              Inicio
+            </a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
+          <li class="dropdown">
+            <a class="nav-link scrollto" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">Servicios</a></li>
+              <li><a class="dropdown-item" href="#experience">Historia</a></li>
+              <!-- Puedes agregar más elementos del menú desplegable si es necesario -->
+            </ul>
+          </li>
+
+
+
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li>  -->
+
+        </ul>
+        <ul class="d-flex justify-content-end">
           <li>
             <label class="switch nav-link scrollto" for="dark-mode-btn">
               <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
@@ -91,36 +108,89 @@ session_start();
               <i class="fas fa-moon"></i>
             </label>
           </li>
-          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
-          <li><a class="nav-link scrollto active" href="index.html#">
-              <!-- <i class="bi bi-house-up-fill" style="font-size:x-large;">Inicio</i> -->
-              Inicio
-            </a></li>
-          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
-          <!-- <li><a class="nav-link scrollto" href="index.html#proyectos">Proyectos</a></li> -->
-          <li><a class="nav-link scrollto" href="index.html#experience">Historia</a></li>
-
-          <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>  -->
-          <?php if (isset($_SESSION['user_name'])): ?>
+          <?php if (isset($_SESSION['user_name'])) : ?>
             <li>
-                <a class="nav-link scrollto" href="#">
-                    ¡Hola, <?php echo $_SESSION['user_name']; ?>!
-                </a>
+              <a class="nav-link scrollto" href="#">
+                ¡Hola, <?php echo $_SESSION['user_name']; ?>!
+              </a>
             </li>
-        <?php else: ?>
+          <?php else : ?>
             <li>
-                <a class="nav-link scrollto" href="auth.php">
-                    <i class="fab fa-google"></i> Iniciar sesión con Google
-                </a>
+              <a class="nav-link scrollto" href="auth.php">
+                <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión
+              </a>
             </li>
-        <?php endif; ?>
+          <?php endif; ?>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
 
       </nav>
+    </div>
+
+
+    <div class="container-fluid align-items-center d-sm-none d-md-none d-lg-block">
+
+      
+      <nav id="navbar" class="navbar ">
+        <ul class="d-flex justify-content-start">
+          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
+          <!-- <li><a class="nav-link scrollto active" href="index.html#">
+              <i class="bi bi-house-up-fill" style="font-size:x-large;"></i> 
+              Inicio
+            </a></li> -->
+            <li>
+            <a href="#" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <h1>Anyel<span>EC</span></h1>
+      </a>
+            </li>
+          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
+          <li class="dropdown">
+            <a class="nav-link scrollto" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">Servicios</a></li>
+              <li><a class="dropdown-item" href="#experience">Historia</a></li>
+              <!-- Puedes agregar más elementos del menú desplegable si es necesario -->
+            </ul>
+          </li>
+
+
+
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li>  -->
+
+        </ul>
+        <ul class="d-flex justify-content-end">
+          <li>
+            <label class="switch nav-link scrollto" for="dark-mode-btn">
+              <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
+              <span class="slider"></span>
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+            </label>
+          </li>
+          <?php if (isset($_SESSION['user_name'])) : ?>
+            <li>
+              <a class="nav-link scrollto" href="#">
+                ¡Hola, <?php echo $_SESSION['user_name']; ?>!
+              </a>
+            </li>
+          <?php else : ?>
+            <li>
+              <a class="nav-link scrollto" href="auth.php">
+                <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión
+              </a>
+            </li>
+          <?php endif; ?>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+
+      </nav>
+    </div>
+
 
 
   </header><!-- End Header --><!-- End Header -->
@@ -160,38 +230,30 @@ session_start();
                 <!-- Formato WebP para mayor calidad y menor tamaño en navegadores compatibles -->
                 <source srcset="assets/img/anyel.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="mx-auto rounded-circle img-fluid" src="assets/img/anyel.jpg"
-                  alt="Anyel EC (Imagen de Perfil)" style="max-width: 100%;" width="50%">
+                <img class="mx-auto rounded-circle img-fluid" src="assets/img/anyel.jpg" alt="Anyel EC (Imagen de Perfil)" style="max-width: 100%;" width="50%">
               </picture>
 
 
               <h4>Anyel EC</h4>
               <p class="" id="a28">Redes sociales</p>
               <!-- Enlaces a redes sociales con iconos -->
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20"
-                target="_blank" aria-label="Diana Petersen Twitter Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20" target="_blank" aria-label="Diana Petersen Twitter Profile">
                 <i class="fab fa-whatsapp"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://www.facebook.com/profile.php?id=61552032335826" target="_blank"
-                aria-label="Angel Paul Patiño Diaz Facebook Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.facebook.com/profile.php?id=61552032335826" target="_blank" aria-label="Angel Paul Patiño Diaz Facebook Profile">
                 <i class="fab fa-facebook-f"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://www.linkedin.com/in/angel-pati%C3%B1o/" target="_blank" aria-label="LinkedIn">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.linkedin.com/in/angel-pati%C3%B1o/" target="_blank" aria-label="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://github.com/Anyel-ec/" target="_blank"
-                aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://github.com/Anyel-ec/" target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
                 <i class="fab fa-github"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.tiktok.com/@anyel.ec"
-                target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.tiktok.com/@anyel.ec" target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
                 <i class="fab fa-tiktok"></i>
               </a>
 
@@ -342,26 +404,21 @@ session_start();
               <div class="member-img">
                 <picture>
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
-                  <source srcset="assets/img/Certificados_Profesionales/Analista_de_Datos_de_IBM.webp"
-                    type="image/webp">
+                  <source srcset="assets/img/Certificados_Profesionales/Analista_de_Datos_de_IBM.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Analista de Datos de IBM.jpg" class="img-fluid"
-                    alt="Certificado Profesional de Analista de Datos de IBM obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Analista de Datos de IBM.jpg" class="img-fluid" alt="Certificado Profesional de Analista de Datos de IBM obtenido por Anyel EC">
                 </picture>
               </div>
 
               <div class="member-info" id="c-1">
 
                 <div class="social">
-                  <a href="https://coursera.org/share/22639a0921a2e148f77eac00101385c7" target="_blank"><i
-                      class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://coursera.org/share/22639a0921a2e148f77eac00101385c7" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/Analista_datos.pdf" download="Certificado Profesional Analista de Datos IBM.pdf"
-                    title="Descargar PDF">
+                  <a href="/pdf/Analista_datos.pdf" download="Certificado Profesional Analista de Datos IBM.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Analista de Datos de IBM</h4>
                 <span>Certificado profesional </span>
@@ -374,25 +431,20 @@ session_start();
               <div class="member-img">
                 <picture>
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
-                  <source srcset="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.webp"
-                    type="image/webp">
+                  <source srcset="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.jpg" class="img-fluid"
-                    alt="Certificado Profesional IBM Cybersecurity Analyst obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.jpg" class="img-fluid" alt="Certificado Profesional IBM Cybersecurity Analyst obtenido por Anyel EC">
                 </picture>
               </div>
 
               <div class="member-info" id="c-2">
                 <div class="social">
-                  <a href="https://coursera.org/share/f8685f47a18c7c30ed03bbe071e2fd59" target="_blank"><i
-                      class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://coursera.org/share/f8685f47a18c7c30ed03bbe071e2fd59" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/Analista_Ciberseguridad.pdf"
-                    download="Certificado Profesional Analista de Ciberseguridad IBM.pdf" title="Descargar PDF">
+                  <a href="/pdf/Analista_Ciberseguridad.pdf" download="Certificado Profesional Analista de Ciberseguridad IBM.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>IBM Cybersecurity Analyst</h4>
                 <span>Certificado profesional </span>
@@ -407,22 +459,18 @@ session_start();
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Google_IT.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Google_IT.jpg" class="img-fluid"
-                    alt="Certificado Profesional Google Support IT obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Google_IT.jpg" class="img-fluid" alt="Certificado Profesional Google Support IT obtenido por Anyel EC">
                 </picture>
               </div>
 
               <div class="member-info" id="c-3">
                 <div class="social">
-                  <a href="https://coursera.org/share/2c7a0a294faa28e092498009c031bfe8" target="_blank"><i
-                      class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://coursera.org/share/2c7a0a294faa28e092498009c031bfe8" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/IT_Support.pdf" download="Certificado Profesional Google IT Support.pdf"
-                    title="Descargar PDF">
+                  <a href="/pdf/IT_Support.pdf" download="Certificado Profesional Google IT Support.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Google IT Support</h4>
                 <span>Certificado profesional </span>
@@ -436,22 +484,18 @@ session_start();
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Computer_Communications.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Computer_Communications.jpg" class="img-fluid"
-                    alt="Especialización de Computer Communications obtenida por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Computer_Communications.jpg" class="img-fluid" alt="Especialización de Computer Communications obtenida por Anyel EC">
                 </picture>
               </div>
 
               <div class="member-info" id="c-4">
                 <div class="social">
-                  <a href="https://coursera.org/share/f1a00eb73626fb3bf215aa6a974aa1a8" target="_blank"><i
-                      class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://coursera.org/share/f1a00eb73626fb3bf215aa6a974aa1a8" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/Computer_Communications.pdf"
-                    download="Especialización de Comunicación de Computadoras.pdf" title="Descargar PDF">
+                  <a href="/pdf/Computer_Communications.pdf" download="Especialización de Comunicación de Computadoras.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Computer Communications (University of Colorado System)</h4>
                 <span>Especialización</span>
@@ -464,25 +508,20 @@ session_start();
               <div class="member-img">
                 <picture>
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
-                  <source srcset="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.webp"
-                    type="image/webp">
+                  <source srcset="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.jpg" class="img-fluid"
-                    alt="Certificado Profesional Junior Cybersecurity Analyst de Cisco obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.jpg" class="img-fluid" alt="Certificado Profesional Junior Cybersecurity Analyst de Cisco obtenido por Anyel EC">
                 </picture>
               </div>
 
               <div class="member-info" id="c-5">
                 <div class="social">
-                  <a href="https://www.credly.com/badges/c0e93741-8463-4e34-b085-c66135b13b4a/public_url"
-                    target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://www.credly.com/badges/c0e93741-8463-4e34-b085-c66135b13b4a/public_url" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/Junior_Cybersecurity_Analyst_Career_Path_Badge20240105-29-f930wl.pdf"
-                    download="Especialización de Analista de Ciberseguridad JR.pdf" title="Descargar PDF">
+                  <a href="/pdf/Junior_Cybersecurity_Analyst_Career_Path_Badge20240105-29-f930wl.pdf" download="Especialización de Analista de Ciberseguridad JR.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Junior Cybersecurity Analyst</h4>
                 <span>Especialización</span>
@@ -497,22 +536,18 @@ session_start();
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/aws.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/aws.jpg" class="img-fluid"
-                    alt="Certificación de AWS de Arquitecto de Soluciones en la Nube obtenido por Anyel EC ">
+                  <img src="assets/img/Certificados_Profesionales/aws.jpg" class="img-fluid" alt="Certificación de AWS de Arquitecto de Soluciones en la Nube obtenido por Anyel EC ">
                 </picture>
               </div>
 
               <div class="member-info" id="c-6">
                 <div class="social">
-                  <a href="https://coursera.org/share/63a936498f3dad29d9f0c72f622f584d" target="_blank"><i
-                      class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
+                  <a href="https://coursera.org/share/63a936498f3dad29d9f0c72f622f584d" target="_blank"><i class="bi bi-browser-chrome" title="Abrir enlace de Certificación"></i>
                     </i></a>
-                  <a href="/pdf/AWS Cloud Solutions.pdf" download="AWS Cloud Solutions Architect.pdf"
-                    title="Descargar PDF">
+                  <a href="/pdf/AWS Cloud Solutions.pdf" download="AWS Cloud Solutions Architect.pdf" title="Descargar PDF">
                     <i class="bi bi-cloud-arrow-down-fill"></i>
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i
-                      class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>AWS Cloud Solutions Architect
                 </h4>
@@ -541,9 +576,7 @@ session_start();
               <br>
               <strong>¡Aqui les Dejo Mi Whatsapp!</strong>
             </p>
-            <a class="cta-btn align-self-center"
-              href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20"
-              target="_blank">
+            <a class="cta-btn align-self-center" href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20" target="_blank">
               <i class="bi bi-whatsapp"></i> Whatsapp
             </a>
           </div>
@@ -603,8 +636,7 @@ session_start();
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/servicios/analista_ciberseguridad.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/servicios/analista_ciberseguridad.jpeg" class="img-fluid"
-                    alt="Analista de Ciberseguridad">
+                  <img src="assets/img/servicios/analista_ciberseguridad.jpeg" class="img-fluid" alt="Analista de Ciberseguridad">
                 </picture>
               </div>
 
@@ -744,7 +776,7 @@ session_start();
               </div>
             </div>
           </div><!-- End Service Item -->
-          
+
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
@@ -800,8 +832,7 @@ session_start();
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1" id="f1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" id="f1">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿De qué país eres?
                   </button>
@@ -819,8 +850,7 @@ session_start();
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-2" id="f2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" id="f2">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Cuál es tu edad?
                   </button>
@@ -835,8 +865,7 @@ session_start();
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-3" id="f3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3" id="f3">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Cuáles son tus redes sociales o plataformas que usas habitualmente?
                   </button>
@@ -846,8 +875,7 @@ session_start();
                     Me gusta mucho <a href="https://www.tiktok.com/@anyel.ec">TikTok</a>, alli subo contenido de mi
                     carrera, antes era streaming, subo videos a <a href="https://www.youtube.com/@anyelec">YT</a>, IG,
                     FB, tengo perfil de desarrollador
-                    en <a href="https://github.com/Anyel-ec">GitHub</a>, tambien en <a
-                      href="https://www.linkedin.com/in/anyel-ec/">Linkedin</a>, y bueno, en todas las redes sociales me
+                    en <a href="https://github.com/Anyel-ec">GitHub</a>, tambien en <a href="https://www.linkedin.com/in/anyel-ec/">Linkedin</a>, y bueno, en todas las redes sociales me
                     encuentras como <strong>Anyel EC</strong>
                     (Dale clic en las letras azules y te llevan a mis redes sociales).
                   </div>
@@ -856,8 +884,7 @@ session_start();
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-4" id="f4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4" id="f4">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Los servicios son de forma individual o en equipo?
                   </button>
@@ -878,8 +905,7 @@ session_start();
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-5" id="f5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5" id="f5">
                     <i class="bi bi-question-circle question-icon"></i>
                     ¿Dónde estudias? ¿Qué carrera estudias, y el semestre? ¿O en qué trabajas?
                   </button>
@@ -925,8 +951,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/pasantias.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/pasantias.jpg"
-                  alt="La primera pasantía de Anyel EC" width="100%">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/pasantias.jpg" alt="La primera pasantía de Anyel EC" width="100%">
               </picture>
             </div>
 
@@ -953,8 +978,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/mejor_egresado.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/mejor_egresado.jpg"
-                  alt="Mejor Egresado Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/mejor_egresado.jpg" alt="Mejor Egresado Anyel EC">
               </picture>
 
             </div>
@@ -980,8 +1004,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/creador-contenido.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/creador-contenido.jpeg"
-                  alt="Creador de Contenido Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/creador-contenido.jpeg" alt="Creador de Contenido Anyel EC">
               </picture>
 
             </div>
@@ -1007,8 +1030,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/super_sav.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/super_sav.jpeg"
-                  alt="Community Manager Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/super_sav.jpeg" alt="Community Manager Anyel EC">
               </picture>
             </div>
 
@@ -1035,8 +1057,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/vinculacion.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/vinculacion.jpeg"
-                  alt="Vinculación Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/vinculacion.jpeg" alt="Vinculación Anyel EC">
               </picture>
             </div>
 
@@ -1065,8 +1086,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/fundacion.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/fundacion.jpeg"
-                  alt="Proyecto sobre la Fundación Avanzando Juntos EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/fundacion.jpeg" alt="Proyecto sobre la Fundación Avanzando Juntos EC">
               </picture>
             </div>
 
@@ -1095,8 +1115,7 @@ session_start();
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/dev.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/dev.jpeg"
-                  alt="Desarrollador Full Stack actualmente Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/dev.jpeg" alt="Desarrollador Full Stack actualmente Anyel EC">
               </picture>
             </div>
 
@@ -1188,8 +1207,7 @@ session_start();
                 <i class="bi bi-whatsapp flex-shrink-0"></i>
                 <div>
                   <h4>WhatsApp:</h4>
-                  <a
-                    href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20">+593
+                  <a href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20">+593
                     99 167 5490</a>
                 </div>
               </div><!-- End Info Item -->
@@ -1203,8 +1221,7 @@ session_start();
               <div class="row">
                 <div class="form-group col-sm-12 col-lg-6">
                   <label for="nombre">Nombre:</label>
-                  <input type="text" class="form-control" placeholder="Nombre Completo" id="nombre" name="Nombre"
-                    required>
+                  <input type="text" class="form-control" placeholder="Nombre Completo" id="nombre" name="Nombre" required>
                 </div>
                 <div class="form-group col-sm-12 col-lg-6">
                   <label for="pais" class="font-weight-bold">Pais:</label>
@@ -1237,14 +1254,12 @@ session_start();
 
                 <div class="form-group col-sm-12 col-lg-6">
                   <label for="nombre">Celular:</label>
-                  <input type="text" class="form-control" placeholder="0999999999" id="celular" name="Celular"
-                    maxlength="15" required>
+                  <input type="text" class="form-control" placeholder="0999999999" id="celular" name="Celular" maxlength="15" required>
                 </div>
 
                 <div class="form-group col-sm-12 col-lg-6">
                   <label for="correo">Correo electrónico:</label>
-                  <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="correo" maxlength="50"
-                    name="Correo" required>
+                  <input type="email" class="form-control" placeholder="ejemplo@gmail.com" id="correo" maxlength="50" name="Correo" required>
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje:</label>
@@ -1291,30 +1306,23 @@ session_start();
               <h3>Redes Sociales</h3>
             </div>
             <div class="team-member">
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20"
-                target="_blank" aria-label="Diana Petersen Twitter Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://api.whatsapp.com/send?phone=593991675490&text=Hola%2C%20muy%20buen%20d%C3%ADa.%20%0AConsegu%C3%AD%20este%20n%C3%BAmero%20en%20tu%20sitio%20web.%20" target="_blank" aria-label="Diana Petersen Twitter Profile">
                 <i class="fab fa-whatsapp"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://www.facebook.com/profile.php?id=61552032335826" target="_blank"
-                aria-label="Angel Paul Patiño Diaz Facebook Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.facebook.com/profile.php?id=61552032335826" target="_blank" aria-label="Angel Paul Patiño Diaz Facebook Profile">
                 <i class="fab fa-facebook-f"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle"
-                href="https://www.linkedin.com/in/angel-pati%C3%B1o/" target="_blank" aria-label="LinkedIn">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.linkedin.com/in/angel-pati%C3%B1o/" target="_blank" aria-label="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://github.com/Anyel-ec/" target="_blank"
-                aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://github.com/Anyel-ec/" target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
                 <i class="fab fa-github"></i>
               </a>
 
-              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.tiktok.com/@anyel.ec"
-                target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
+              <a class="btn btn-dark btn-social mx-2 rounded-circle" href="https://www.tiktok.com/@anyel.ec" target="_blank" aria-label="Angel Paul Patiño Diaz LinkedIn Profile">
                 <i class="fab fa-tiktok"></i>
               </a>
 
@@ -1338,7 +1346,7 @@ session_start();
           <div id="copyright" class="col-lg-4 text-lg-start">Copyright &copy; Angel Paul Patiño Diaz 2023</div>
 
           <script>
-            document.addEventListener('DOMContentLoaded', function () {
+            document.addEventListener('DOMContentLoaded', function() {
               var currentYear = new Date().getFullYear();
               document.getElementById('copyright').innerHTML = 'Copyright &copy; Angel Paul Patiño Diaz ' + currentYear;
             });
@@ -1347,8 +1355,7 @@ session_start();
 
           </div>
           <div class="col-lg-4 text-lg-end">
-            <a class=" text-decoration-none me-3" id="a30" data-bs-toggle="modal"
-              data-bs-target="#modalPolitica">Política de privacidad</a>
+            <a class=" text-decoration-none me-3" id="a30" data-bs-toggle="modal" data-bs-target="#modalPolitica">Política de privacidad</a>
             <a class="text-decoration-none" id="a31" data-bs-toggle="modal" data-bs-target="#modalTerminos">Términos de
               usuario</a>
           </div>
