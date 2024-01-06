@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -100,6 +103,19 @@
 
           <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
           <!-- <li><a href="blog.html">Blog</a></li>  -->
+          <?php if (isset($_SESSION['user_name'])): ?>
+            <li>
+                <a class="nav-link scrollto" href="#">
+                    ¡Hola, <?php echo $_SESSION['user_name']; ?>!
+                </a>
+            </li>
+        <?php else: ?>
+            <li>
+                <a class="nav-link scrollto" href="auth.php">
+                    <i class="fab fa-google"></i> Iniciar sesión con Google
+                </a>
+            </li>
+        <?php endif; ?>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>

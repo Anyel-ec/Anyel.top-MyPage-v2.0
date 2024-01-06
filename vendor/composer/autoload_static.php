@@ -28,6 +28,7 @@ class ComposerStaticInit5cd48b6645860e6f71f44390d4549abe
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Dotenv\\' => 25,
         ),
         'P' => 
         array (
@@ -78,6 +79,10 @@ class ComposerStaticInit5cd48b6645860e6f71f44390d4549abe
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Component\\Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dotenv',
         ),
         'Psr\\Log\\' => 
         array (
