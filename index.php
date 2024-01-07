@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -69,37 +66,14 @@ session_start();
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top " data-scrollto-offset="0">
-    <div class="container-fluid align-items-center d-sm-block d-md-block d-lg-none">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="#" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="/" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <h1>Anyel<span>EC</span></h1>
       </a>
-      <nav id="navbar" class="navbar ">
-        <ul class="d-flex justify-content-start">
-          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
-          <!-- <li><a class="nav-link scrollto active" href="index.html#">
-              <i class="bi bi-house-up-fill" style="font-size:x-large;"></i> 
-              Inicio
-            </a></li> -->
-          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
-          <li class="dropdown">
-            <a class="nav-link scrollto" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Servicios
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#services">Servicios</a></li>
-              <li><a class="dropdown-item" href="#experience">Historia</a></li>
-              <!-- Puedes agregar más elementos del menú desplegable si es necesario -->
-            </ul>
-          </li>
-
-
-
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>  -->
-
-        </ul>
-        <ul class="d-flex justify-content-end">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!--by Anyel EC-->
           <li>
             <label class="switch nav-link scrollto" for="dark-mode-btn">
               <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
@@ -108,6 +82,18 @@ session_start();
               <i class="fas fa-moon"></i>
             </label>
           </li>
+          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
+          <!-- <li><a class="nav-link scrollto active" href="index.html#">
+               <i class="bi bi-house-up-fill" style="font-size:x-large;">Inicio</i> 
+              Inicio
+            </a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
+          <!-- <li><a class="nav-link scrollto" href="index.html#proyectos">Proyectos</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#experience">Historia</a></li>
+
+          <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li>  -->
           <?php if (isset($_SESSION['user_name'])) : ?>
             <li>
               <a class="nav-link scrollto" href="#">
@@ -117,80 +103,15 @@ session_start();
           <?php else : ?>
             <li>
               <a class="nav-link scrollto" href="auth.php">
-                <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión
+                Iniciar sesión 
+                <!-- <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión -->
               </a>
             </li>
           <?php endif; ?>
-
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
 
       </nav>
-    </div>
-
-
-    <div class="container-fluid align-items-center d-sm-none d-md-none d-lg-block">
-
-      
-      <nav id="navbar" class="navbar ">
-        <ul class="d-flex justify-content-start">
-          <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
-          <!-- <li><a class="nav-link scrollto active" href="index.html#">
-              <i class="bi bi-house-up-fill" style="font-size:x-large;"></i> 
-              Inicio
-            </a></li> -->
-            <li>
-            <a href="#" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <h1>Anyel<span>EC</span></h1>
-      </a>
-            </li>
-          <li><a class="nav-link scrollto" href="index.html#certificaciones">Certificaciones</a></li>
-          <li class="dropdown">
-            <a class="nav-link scrollto" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Servicios
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#services">Servicios</a></li>
-              <li><a class="dropdown-item" href="#experience">Historia</a></li>
-              <!-- Puedes agregar más elementos del menú desplegable si es necesario -->
-            </ul>
-          </li>
-
-
-
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li>  -->
-
-        </ul>
-        <ul class="d-flex justify-content-end">
-          <li>
-            <label class="switch nav-link scrollto" for="dark-mode-btn">
-              <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
-              <span class="slider"></span>
-              <i class="fas fa-sun"></i>
-              <i class="fas fa-moon"></i>
-            </label>
-          </li>
-          <?php if (isset($_SESSION['user_name'])) : ?>
-            <li>
-              <a class="nav-link scrollto" href="#">
-                ¡Hola, <?php echo $_SESSION['user_name']; ?>!
-              </a>
-            </li>
-          <?php else : ?>
-            <li>
-              <a class="nav-link scrollto" href="auth.php">
-                <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión
-              </a>
-            </li>
-          <?php endif; ?>
-
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle d-none"></i>
-
-      </nav>
-    </div>
-
 
 
   </header><!-- End Header --><!-- End Header -->

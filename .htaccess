@@ -9,12 +9,6 @@
 ##################################################
 
 
-DirectoryIndex index.php index.html index.htm index2.html
-
-ErrorDocument 403 https://errors.infinityfree.net/errors/403/
-ErrorDocument 404 https://errors.infinityfree.net/errors/404/
-ErrorDocument 500 https://errors.infinityfree.net/errors/500/
-
 
 RewriteEngine On
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
@@ -28,9 +22,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
-<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css)$">
-  Header set Cache-Control "max-age=2592000, public, must-revalidate"
-</FilesMatch>
+
 ########### denegar .env
 <Files .env>
     Order Allow,Deny
