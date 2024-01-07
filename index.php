@@ -94,20 +94,7 @@
 
           <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
           <!-- <li><a href="blog.html">Blog</a></li>  -->
-          <?php if (isset($_SESSION['user_name'])) : ?>
-            <li>
-              <a class="nav-link scrollto" href="#">
-                ¡Hola, <?php echo $_SESSION['user_name']; ?>!
-              </a>
-            </li>
-          <?php else : ?>
-            <li>
-              <a class="nav-link scrollto" href="auth.php">
-                Iniciar sesión 
-                <!-- <i class="fab fa-google" style="font-size: larger;"> </i>Iniciar sesión -->
-              </a>
-            </li>
-          <?php endif; ?>
+         
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
 
@@ -1276,9 +1263,9 @@
 
           </div>
           <div class="col-lg-4 text-lg-end">
-            <a class=" text-decoration-none me-3" id="a30" data-bs-toggle="modal" data-bs-target="#modalPolitica">Política de privacidad</a>
-            <a class="text-decoration-none" id="a31" data-bs-toggle="modal" data-bs-target="#modalTerminos">Términos de
-              usuario</a>
+            <a class=" text-decoration-none me-3" id="a30" data-bs-toggle="modal" data-bs-target="#modalPolitica" style="cursor: pointer;">Política de privacidad</a>
+            <a class="text-decoration-none" id="a31" data-bs-toggle="modal" data-bs-target="#modalTerminos" style="cursor: pointer;">Términos de usuario</a>
+
           </div>
         </div>
       </div>
@@ -1314,7 +1301,7 @@
   <!-- Chat IA -->
   <script src="//code.tidio.co/cj7c4tdvixzmfm9qsg0kmc0l6gwjinii.js" async></script>
 
-  <!-- Modal -->
+  <!-- Modal de Politica de Privacidad-->
   <div class="modal fade" id="modalPolitica" tabindex="-1" aria-labelledby="modalPolitica" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -1385,6 +1372,7 @@
       </div>
     </div>
   </div>
+  <!-- Modal de Términos de Usuario -->
   <div class="modal fade" id="modalTerminos" tabindex="-1" aria-labelledby="modalTerminos" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
