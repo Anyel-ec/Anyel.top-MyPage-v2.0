@@ -7,6 +7,7 @@ Welcome to my personal website project! In this repository, you will find all th
 - PHP 
 - Composer
 - MongoDB
+#### (In developement, NO FINISH)
 
 ### **Select Language:**
 - [Español (Spanish)](README-es.md)
@@ -17,6 +18,18 @@ Welcome to my personal website project! In this repository, you will find all th
 ![Google Auth](docs/Auth2.0.PNG) 
 ### OpenSSL Local
 ![Google Auth](docs/openssl.PNG) 
+### Responsive Design
+![Google Auth](docs/Responsive_Design.PNG) 
+### Chat Bot (IA)
+![Google Auth](docs/ChatBot.PNG) 
+### Dark mode
+![Google Auth](docs/modo_oscuro.PNG) 
+### Light mode
+![Google Auth](docs/modo_claro.PNG)
+### Form Contact
+![Google Auth](docs/formulario_contacto.PNG)
+### Receipt of Email 
+![Google Auth](docs/form_contact.PNG)
 
 ## Project Description
 

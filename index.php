@@ -74,14 +74,17 @@
       <nav id="navbar" class="navbar">
         <ul>
           <!--by Anyel EC-->
+          <!--by Anyel EC-->
           <li>
-            <label class="switch nav-link scrollto" for="dark-mode-btn">
+            <label class="switch nav-link scrollto" for="dark-mode-btn" aria-label="Tooglear Modo Oscuro ">
               <input type="checkbox" id="dark-mode-btn" onchange="toggleDarkMode()">
               <span class="slider"></span>
               <i class="fas fa-sun"></i>
               <i class="fas fa-moon"></i>
+
             </label>
           </li>
+
           <!-- <li><a href="index.html" class="active">Inicio</a></li> -->
           <!-- <li><a class="nav-link scrollto active" href="index.html#">
                <i class="bi bi-house-up-fill" style="font-size:x-large;">Inicio</i> 
@@ -94,7 +97,7 @@
 
           <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
           <!-- <li><a href="blog.html">Blog</a></li>  -->
-         
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
 
@@ -194,7 +197,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative text-center" id="fs-1">
               <div class="icon"><i class="bi bi-collection-play icon"></i></div>
-              <h4 class=""><a href="#" class="stretched-link">Creador de Contenido</a></h4>
+              <h4 class=""><a href="/" class="stretched-link">Creador de Contenido</a></h4>
               <p>Me apasiona compartir mis experiencias y conocimientos, así como conocer personas maravillosas. Este
                 mundo digital es realmente hermoso.
                 "Buscame como <strong>Anyel EC</strong> en todas mis redes sociales." Guiño Guiño.
@@ -205,7 +208,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative text-center" id="fs-2">
               <div class="icon"><i class="bi bi-shield-check icon"></i></div>
-              <h4><a href="#" class="stretched-link">Analista de Ciberseguridad</a></h4>
+              <h4><a href="/" class="stretched-link">Analista de Ciberseguridad</a></h4>
               <p>Desde que sufrí un hackeo en mi cuenta de YouTube; carita muy tite :(, me enamoré de ayudar a prevenir
                 que esto le suceda a otras personas.</p>
             </div>
@@ -214,7 +217,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative text-center" id="fs-3">
               <div class="icon"><i class="bi bi-code-slash icon"></i></div>
-              <h4><a href="#" class="stretched-link">Desarrollador Full Stack de Aplicaciones </a></h4>
+              <h4><a href="/" class="stretched-link">Desarrollador Full Stack de Aplicaciones </a></h4>
               <p>Me gusta mucho el desarrollo de aplicaciones móvil y web, especialmente el despliegue e implementación
                 de seguridad. Eso sí, brindando más de lo que se espera.
               </p>
@@ -224,7 +227,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative text-center" id="fs-4">
               <div class="icon"><i class="bi bi-stars icon"></i></div>
-              <h4><a href="#" class="stretched-link">Invitame a la Iglesia me estoy convirtiendo en un Cuco jojojo</a>
+              <h4><a href="/" class="stretched-link">Invitame a la Iglesia me estoy convirtiendo en un Cuco jojojo</a>
               </h4>
               <p>Creo en nuestro Dios, en nuestro señor Jesús como nuestro Salvador, pero me gusta más practicar el ser
                 buena persona, así que te animo a ti también.</p>
@@ -305,16 +308,16 @@
             la empresa donde yo hacía prácticas.</p>
         </div>
 
-        <div class="row gy-5">
+        <div class="row gy-5 d-flex justify-content-center">
 
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-xl-4 col-md-6 d-flex " data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
                 <picture>
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Analista_de_Datos_de_IBM.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Analista de Datos de IBM.jpg" class="img-fluid" alt="Certificado Profesional de Analista de Datos de IBM obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Analista de Datos de IBM.jpg" class="img-fluid" width="500px" alt="Certificado Profesional de Analista de Datos de IBM obtenido por Anyel EC">
                 </picture>
               </div>
 
@@ -341,7 +344,7 @@
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.jpg" class="img-fluid" alt="Certificado Profesional IBM Cybersecurity Analyst obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/IBM_Cybersecurity_Analyst.jpg" width="500px" class="img-fluid" alt="Certificado Profesional IBM Cybersecurity Analyst obtenido por Anyel EC">
                 </picture>
               </div>
 
@@ -367,7 +370,7 @@
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Google_IT.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Google_IT.jpg" class="img-fluid" alt="Certificado Profesional Google Support IT obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Google_IT.jpg" width="500px" class="img-fluid" alt="Certificado Profesional Google Support IT obtenido por Anyel EC">
                 </picture>
               </div>
 
@@ -392,7 +395,7 @@
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Computer_Communications.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Computer_Communications.jpg" class="img-fluid" alt="Especialización de Computer Communications obtenida por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Computer_Communications.jpg" width="500px" class="img-fluid" alt="Especialización de Computer Communications obtenida por Anyel EC">
                 </picture>
               </div>
 
@@ -405,7 +408,7 @@
                   </a> <!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
                   <a href="https://www.linkedin.com/in/anyel-ec/" target="_blank" title="Abrir enlace de Linkedln"><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Computer Communications (University of Colorado System)</h4>
+                <h4>Computer Communications</h4>
                 <span>Especialización</span>
               </div>
             </div>
@@ -418,7 +421,7 @@
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.jpg" class="img-fluid" alt="Certificado Profesional Junior Cybersecurity Analyst de Cisco obtenido por Anyel EC">
+                  <img src="assets/img/Certificados_Profesionales/Junior_Cybersecurity_Analyst.jpg" width="500px" class="img-fluid" alt="Certificado Profesional Junior Cybersecurity Analyst de Cisco obtenido por Anyel EC">
                 </picture>
               </div>
 
@@ -444,7 +447,7 @@
                   <!-- Formato WebP - mayor calidad y menor tamaño -->
                   <source srcset="assets/img/Certificados_Profesionales/aws.webp" type="image/webp">
                   <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                  <img src="assets/img/Certificados_Profesionales/aws.jpg" class="img-fluid" alt="Certificación de AWS de Arquitecto de Soluciones en la Nube obtenido por Anyel EC ">
+                  <img src="assets/img/Certificados_Profesionales/aws.jpg" width="500px" class="img-fluid" alt="Certificación de AWS de Arquitecto de Soluciones en la Nube obtenido por Anyel EC ">
                 </picture>
               </div>
 
@@ -524,7 +527,7 @@
                 <div class="icon">
                   <i class="bi bi-award-fill"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Community Manager</a></h3>
+                <h3><a href="/" class="stretched-link">Community Manager</a></h3>
 
                 <p>
                   Desarrollo de marca, SEO, SEM, creación de contenido, manejo de redes sociales, diseño gráfico,
@@ -552,7 +555,7 @@
                 <div class="icon">
                   <i class="bi bi-incognito"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Analista de Ciberseguridad</a></h3>
+                <h3><a href="/" class="stretched-link">Analista de Ciberseguridad</a></h3>
 
                 <p>Implementación de seguridad en aplicaciones móviles, web, servidores, bases de datos, redes, y mucho
                   más.
@@ -581,7 +584,7 @@
                 <div class="icon">
                   <i class="bi bi-database-fill"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Analista de Datos</a></h3>
+                <h3><a href="/" class="stretched-link">Analista de Datos</a></h3>
 
                 <p>Implementación de inteligencia artificial (con Python completo), creación de macros en Excel,
                   dashboard,
@@ -613,7 +616,7 @@
                 <div class="icon">
                   <i class="bi bi-android2"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Desarrollo de Aplicaciones Moviles</a></h3>
+                <h3><a href="/" class="stretched-link">Desarrollo de Aplicaciones Moviles</a></h3>
 
                 <p>Este servicio es de los más chidos, autenticaciones de usuarios, tokens de sesión, front-end
                   atractivo con Kotlin o Flutter, back-end tanto con Node.js o Nest.js,
@@ -623,7 +626,7 @@
                   <strong>Skills: </strong> Kotlin, Flutter, Node.js, Nest.js, SQL, NoSQL, SQLite, GitHub, Docker,
                   Firebase, Google Cloud, Google Play Store
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="" class="stretched-link"></a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -643,7 +646,7 @@
                 <div class="icon">
                   <i class="bi bi-window"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Desarrollo de Sitios Web</a></h3>
+                <h3><a href="/" class="stretched-link">Desarrollo de Sitios Web</a></h3>
 
                 <p>Ideal para marcas pequeñas o PYMES, desarrollo de una página informativa, por $100 ofrecemos
                   integración de APIs de correos, contactos, mapas, WhatsApp, chatbot, hosting y dominio por un año
@@ -651,7 +654,7 @@
                   (SSL), registro de negocio en Google Maps, y mucho más.
                   <br><strong>Skill:</strong> JS, HTML, CSS, PHP
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="/" class="stretched-link"></a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -671,7 +674,7 @@
                 <div class="icon">
                   <i class="bi bi-window-stack"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Desarrollo Full Stack de Aplicaciones Web</a></h3>
+                <h3><a href="/" class="stretched-link">Desarrollo Full Stack de Aplicaciones Web</a></h3>
 
                 <p>Ideal de PYMES o empresas Grandes, desarrollo de plataformas web con PHP(Laravel), Python (Django),
                   Node.js(Angular, React),
@@ -680,7 +683,7 @@
                   <strong>Skills:</strong> PHP, Python, Node.js, Angular, React, HTML, CSS, JS, SQL, NoSQL, Git, GitHub,
                   Docker, Kubernetes, Sprint Boot.
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="/" class="stretched-link"></a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -701,13 +704,13 @@
                 <div class="icon">
                   <i class="bi bi-person-workspace"></i>
                 </div>
-                <h3><a href="#" class="stretched-link">Proyectos Universitarios</a></h3>
+                <h3><a href="/" class="stretched-link">Proyectos Universitarios</a></h3>
 
                 <p>Si eres estudiante, te puedo ayudar con tus proyectos universitarios, o si tienes alguna duda,
                   escribeme que es gratis la ayuda para orientar (Aqui no hay cobro, solo si me pides que te haga el
                   proyecto, ahi si cobramos jejejeje).
                 </p>
-                <a href="#" class="stretched-link"></a>
+                <a href="/" class="stretched-link"></a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -859,8 +862,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/pasantias.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/pasantias.jpg" alt="La primera pasantía de Anyel EC" width="100%">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/pasantias.jpg" alt="La primera pasantía de Anyel EC" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33.3vw">
               </picture>
+
             </div>
 
             <div class="timeline-panel">
@@ -886,8 +890,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/mejor_egresado.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/mejor_egresado.jpg" alt="Mejor Egresado Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/mejor_egresado.jpg" width="10px" alt="Mejor Egresado Anyel EC">
               </picture>
+
 
             </div>
             <div class="timeline-panel">
@@ -915,6 +920,7 @@
                 <img class="rounded-circle img-fluid" src="assets/img/historia/creador-contenido.jpeg" alt="Creador de Contenido Anyel EC">
               </picture>
 
+
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -938,8 +944,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/super_sav.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/super_sav.jpeg" alt="Community Manager Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/super_sav.jpeg" alt="Community Manager Anyel EC" width="100px">
               </picture>
+
             </div>
 
             <div class="timeline-panel">
@@ -965,8 +972,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/vinculacion.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/vinculacion.jpeg" alt="Vinculación Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/vinculacion.jpeg" alt="Vinculación Anyel EC" width="100px">
               </picture>
+
             </div>
 
             <div class="timeline-panel">
@@ -994,8 +1002,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/fundacion.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/fundacion.jpeg" alt="Proyecto sobre la Fundación Avanzando Juntos EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/fundacion.jpeg" alt="Proyecto sobre la Fundación Avanzando Juntos EC" width="100px">
               </picture>
+
             </div>
 
             <div class="timeline-panel">
@@ -1023,8 +1032,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/dev.webp" type="image/webp">
                 <!-- Formato JPEG como respaldo para navegadores que no admiten WebP -->
-                <img class="rounded-circle img-fluid" src="assets/img/historia/dev.jpeg" alt="Desarrollador Full Stack actualmente Anyel EC">
+                <img class="rounded-circle img-fluid" src="assets/img/historia/dev.jpeg" alt="Desarrollador Full Stack actualmente Anyel EC" sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33.3vw">
               </picture>
+
             </div>
 
             <div class="timeline-panel">
@@ -1051,8 +1061,9 @@
                 <!-- Formato WebP - mayor calidad y menor tamaño -->
                 <source srcset="assets/img/historia/claro.webp" type="image/webp">
                 <!-- Formato PNG como respaldo para navegadores que no admiten WebP -->
-                <img src="assets/img/historia/claro.png" alt="Icono de Anyel EC" class="rounded-circle" width="100%">
+                <img src="assets/img/historia/claro.png" alt="Icono de Anyel EC" class="rounded-circle img-fluid" width="100%">
               </picture>
+
             </div>
 
           </li>
@@ -1306,7 +1317,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalPolitica">Política de privacidad</h5>
+          <h5 class="modal-title">Política de privacidad</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -1377,7 +1388,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalTerminos">Términos de usuario </h5>
+          <h5 class="modal-title">Términos de usuario </h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
